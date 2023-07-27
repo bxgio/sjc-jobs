@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .login-box {
+    width: 450px; /* Increased form size */
+    padding: 30px;
+    background-color: #F8F9FA;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 40px;
+    align-items: center; /* Center-align the content horizontally */
+  }
+
+  .login-box h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #112A46;
+  }
+
+  .form-group {
+    margin-bottom: 20px; /* Added space between form elements */
+    width: 100%; /* Set the width to 100% to occupy the entire space within the login box */
+  }
+
+  .form-group label {
+    color: #112A46;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .form-control {
+    border-radius: 5px;
+    padding-left: 45px; /* Adjusted padding to accommodate the icon */
+    width: 100%; /* Set the width to 100% to occupy the entire space within the form group */
+  }
+
+  .form-control .fas {
+    position: absolute;
+    left: 15px; /* Increased icon's left position */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #777;
+    font-size: 18px; /* Increased icon's font size */
+    border: none; /* Removed the border */
+  }
+
+  .btn {
+    border-radius: 5px;
+    width: 100%;
+    background-color: #112A46;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .btn:hover {
+    background-color: #0E1F31;
+  }
+
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .input-group-append {
+    position: relative;
+  }
+
+  .input-group-append .fas {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
