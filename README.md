@@ -2,4 +2,4 @@
 for college project purpose
 Placement management
 Applicant tracking
-Interview 
+Interview Scheduling
